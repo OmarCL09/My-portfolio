@@ -1,0 +1,32 @@
+/*-----Dark mode-----*/
+.DarkModeBody{
+    background-color: #303030;
+}
+.Darkseccion{
+    background-color: #303030 !important;
+}
+.Darktext{
+    color: #ffffff !important;
+}
+.Darkimg{
+    filter: invert(1);
+}
+.Darkheader{
+    background-color: #000000 !important;
+}
+/*-----White mode-----*/
+.White{
+    background-color: #e4e7e5;
+}
+.Whiteseccion{
+    background-color: #e4e7e5 !important;
+}
+.Whitetext{
+    color: #000000 !important;
+}
+.Whiteimg{
+    filter: invert(0);
+}
+.Whiteheader{
+    background-color: #e4e7e5 !important;
+}
