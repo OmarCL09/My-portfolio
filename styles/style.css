@@ -670,7 +670,7 @@ body::-webkit-scrollbar-thumb {
 /*------Footer------*/
 #footer{
     width: 100%;
-    height: 21vh;
+    height: 30vh;
     background-color: #656663;
     display: flex;
     flex-direction: column;
@@ -697,6 +697,211 @@ body::-webkit-scrollbar-thumb {
 .icon-contact:hover{
     transform: scale(1.1);
     cursor: pointer;
+}
+/*-----Responsive-----*/
+@media (max-height:894px){
+    .contacts{
+        margin: 3% 0 0 0;
+    }
+}
+@media (max-height:734px){
+    #main-header{
+        height: 13vh;
+    }
+    #main-nav ul li a{
+        font-size: 1.2em;
+    }
+    .dmoon{
+        height: 5vh;
+    }
+}
+@media (max-height:700px){
+    .infomakefs p{
+        margin-bottom: 4%;
+        margin-top: 2%;
+    }
+    .makefs{
+        height: 95%;
+    }
+    #certificates{
+        margin-bottom: 8%;
+    }
+    .imgcontm h1{
+        margin-top: 7%;
+    }
+    .fisica{
+        height: 95%;
+    }
+    .infofisica p{
+        margin-bottom: 8%;
+        margin-top: 6%;
+    }
+    .imgcontf h1{
+        margin-top: 7%;
+    }
+    #projects{
+        margin-bottom: 5%;
+    }
+    #footer{
+        height: 35vh;
+    }
+    #welcoming h6{
+        font-size: 3vh;
+    }
+    #welcoming h1{
+        font-size: 8vh;
+    }
+}
+@media (max-width:1614px){
+    #main-nav{
+        width: 45%;
+    }
+    .makefs{
+        width: 27%;
+    }
+    .fisica{
+        width: 27%;
+    }
+}
+@media (max-width:1352px){
+    #main-nav{
+        width: 50%;
+    }
+    .button-cert{
+        width: 20%;
+    }
+    .container{
+        height: 10vh;
+    }
+}
+@media (max-width:1195px){
+    .container{
+        height: 8vh;
+    }
+    #main-header{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .main-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .wavesup{
+        display: none;
+    }
+    .wavesimg{
+        display: none;
+    }
+    .information p{
+        font-size: 1.5em;
+        margin: 11% 0 0 0;
+    }
+    .fotom{
+        min-height: 40vh;
+        min-width: 40vh;
+        height: 40vh;
+        width: 40vh;
+        margin: 21% 0 0 0;
+    }
+}
+@media (max-width:1100px){
+    .makefs{
+        width: 35%;
+    }
+    .fisica{
+        width: 35%;
+    }
+    .none-certs h1{
+        font-size: 1.5em;
+    }
+    .container{
+        height: 11vh;
+    }
+    .button-cert{
+        width: 25%;
+    }
+}
+@media (max-width:919px){
+    .icohtml{
+        height: 5vh;
+    }
+    .icocss{
+        height: 5vh;
+    }
+    .icojs{
+        height: 5vh;
+    }
+    .icojava{
+        height: 5vh;
+    }
+    .icoreact{
+        height: 5vh;
+    }
+    .icosql{
+        height: 5vh;
+    }
+    .responsive{
+        display: none;
+    }
+    .dmoon{
+        height: 5vh;
+    }
+    #main-nav{
+        width: 23%;
+    }
+    .fotom{
+        margin: 30% 0 0 0;
+    }
+
+}
+@media(max-width:850px){
+    .container{
+        height: 10vh;
+    }
+    .logo{
+        width: 50%;
+    }
+    .button-cont{
+        width: 90%;
+    }
+    .fisica{
+        width: 45%;
+    }
+    .makefs{
+        width: 45%;
+    }
+    #welcoming h1{
+        text-align: center;
+    }
+    .fotom{
+        margin: 35% 0 0 0;
+    }
+}
+@media(max-width:700px){
+    .projecont{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin-top: 30%;
+    }
+}
+@media(max-width:580px){
+    #welcoming h1{
+        font-size: 4vh;
+    }
+    .fotom{
+        margin: 60% 0 0 0;
+    }
+    #about-me{
+        margin-bottom: 10%;
+    }
+    .information{
+        width: 100%;
+    }
+    .myinfo{
+        width: 95%;
+    }
 }
 /*-----ANIMATIONS------*/
 @keyframes subida{

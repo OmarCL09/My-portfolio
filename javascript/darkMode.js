@@ -13,7 +13,6 @@ if (localStorage.getItem("Theme") == null){
 }else{
     if(localStorage.getItem("Theme") == "oscuro"){
         imagentb.src="../img/sun.png";
-        html.src="../icons/htmlwhite.png";
         body.classList.replace('White', 'DarkModeBody');
         secciones.forEach(ss =>{
             ss.classList.replace('Whiteseccion','Darkseccion');
